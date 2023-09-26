@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/fzambone/go-bookings-app/pkg/config"
 	"github.com/fzambone/go-bookings-app/pkg/handlers"
-	"github.com/go-chi/chi"
-	"github.com/go-chi/chi/middleware"
+	"github.com/go-chi/chi/v5"
+	"github.com/go-chi/chi/v5/middleware"
 	"net/http"
 )
 
