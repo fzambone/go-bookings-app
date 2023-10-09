@@ -3,9 +3,9 @@ package handlers
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/fzambone/go-bookings-app/pkg/config"
-	"github.com/fzambone/go-bookings-app/pkg/models"
-	"github.com/fzambone/go-bookings-app/pkg/render"
+	"github.com/fzambone/go-bookings-app/internal/config"
+	"github.com/fzambone/go-bookings-app/internal/models"
+	"github.com/fzambone/go-bookings-app/internal/render"
 	"log"
 	"net/http"
 )
